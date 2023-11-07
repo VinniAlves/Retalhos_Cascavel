@@ -1,0 +1,42 @@
+caso queria buscar as dependencias em outros pc so utilizar
+** npm install
+
+* npm init
+
+-- Express serve para a criação a API
+* npm install --save express
+
+-- Nodemon serve para não precissar ficar parando a aplicação para atualizações
+* npm install --save-dev nodemon
+
+
+-- Morgan ajuda a realatar um log das solicitações
+* npm install --save morgan
+
+-- Body-parser deve servir para receber o corpo da requisição, com dados
+* npm install --save body-parser
+
+-- CORS serve para definir quem terá acesso para cada API
+
+//Externos será instalado o DOCKER com SQL
+*Instalar o doc DOCKER
+* buscar a imagem no sitem hub docker para instalar o mysql no docker
+
+-- Instalar mysql
+npm install mysql2 --save
+
+* Auxiliar no envio de imagens
+-- npm install --save multer
+
+* Biblioteca para ajudar na criação do Token de acesso
+** Gera token
+-- npm install --save bcrypt
+
+* Gerar um Token ()
+-- npm install jsonwebtoken --save
+
+* Para a criação e manipulação de arquivos
+
+-- npm install fs
+
+-- npm install fs-extra
